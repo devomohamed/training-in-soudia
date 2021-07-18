@@ -213,6 +213,7 @@ header {
     height: 600px;
     position: relative;
     background-attachment: fixed;
+    background-position: center center;
     /* z-index: 10; */
 }
 
