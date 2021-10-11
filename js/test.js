@@ -17,8 +17,10 @@ $('.owl-carousel').owlCarousel({
 })
 new WOW().init();
 $(document).ready(function(){
-    $(".loading").remove();
-    $("body").css("overflow" , "auto");
+    setTimeout(() => {
+        $(".loading").remove();
+        $("body").css("overflow", "auto");
+    }, 3000);
 
 
     // Set the date we're counting down to
