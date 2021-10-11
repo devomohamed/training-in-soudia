@@ -15,7 +15,6 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-new WOW().init();
 $(document).ready(function(){
     setTimeout(() => {
         $(".loading").remove();
